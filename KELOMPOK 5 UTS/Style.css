@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: bold;
+}
+img{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    overflow-y:hidden;
+    overflow-x:scroll;
+}
+.charContainer img{
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: 650px;
+    cursor: pointer;
+}
+
+
+
+li{
+list-style: none;
+}
+
+#logo{
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    
+
+}
+.container{
+    width: auto;
+    height: 100vh;
+   
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgb(53, 53, 53)
+}
+
+.navMenu{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navItem{
+    margin: 2rem;
+}
+
+.links{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.pageContainer{
+    display: flex;
+    top:80px;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.currentDpCon{
+    height: 10%;
+    background-color: rgb(177, 177, 177);
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.dpLogo{
+    height: 100%;
+    width: auto;
+    max-height: 50px;
+   
+    
+}
+
+.currentDp{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin:1rem;
+}
+
+
+.upgradesListCon{
+    height: 100%;
+    width: 40%;
+}
+
+.upgradesList{
+    width: 100%;
+    height: 100%;
+}
+.upgrades{
+    display: grid;
+    grid-template-areas: 
+    'name name name name name name price'
+    'dec dec dec dec dec dec dec';
+    transition: 0.2s;
+}
+
+.upgrades:hover{
+    padding: 1rem 0;
+    transition: 0.5s;
+}
+
+.upgradesName{
+    font-size:2rem;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+
+    background-image: linear-gradient(to right, rgb(100, 100, 100), rgba(255, 0, 0, 0));
+}
+
+.upgradesPrice{
+    display: flex;
+   grid-area: price;
+   font-size:1.5rem;
+   text-align: right;
+   min-width: 40px;
+   background-color: rgba(172, 172, 172, 0.466);
+   align-items: center;
+   justify-content: center;
+   border: 2px solid;
+   border-radius: 2px;
+   cursor: pointer;
+}
+
+.upgradesDescription{
+    grid-area: dec;
+    font-size:1.5rem;
+    padding: 0.2rem 0 0.5rem 0.5rem;
+   
+}
+
+.charContainer{
+    height:100%;
+    width:auto;
+    padding: 100px 0;
+}
+
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: fit-content;
+
+    float:right;
+    
+
+}
+
+.skill{
+
+    height: 40%;
+    font-size: 2rem;
+}
+
+.skillName{
+    background-image: linear-gradient(to top, rgb(100, 100, 100), rgba(255, 0, 0, 0));
+    padding: 10px;
+}
+
+.btnUp{
+    font-size: 1.2em;
+    text-align: center;
+    background-color: rgba(172, 172, 172, 0.466);
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+/*kodenya kredo konmtol*/
+.profileContainer {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+   
+    width: fit-content;
+    height: 60%;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 420px;
+}
+
+.profile{
+    padding: 20px;
+    width: fit-content;
+    margin: 0 2rem;
+    height: 100%;
+   
+    text-align: center;
+}
+
+.profileName{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.profile a{
+    font-size: 1.5rem;
+}
+
+.profile img{
+    min-width: 250px;
+    width: auto;
+    height: 50%;
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+.ref{
+    width: 100%;
+    padding: 20px;
+    border: 4px 0 0 0 solid black;
+}
+
+#refTitle{
+    font-size: 2rem;
+}
+
+.refContent{
+    font-size: 1.3rem;
+}
+/*kode kredo konmtol^*/
+
+
+

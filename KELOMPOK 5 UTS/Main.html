@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Style.css" rel="stylesheet">
+    <link href="Style M.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navContainer" id="navCon">
+            <div id="logo">
+                <img src="Gambar/Vanguard.webp" class="vanguard">
+            </div>
+            <div class="navToggle" id="mobileMenu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="navMenu" id="navMen">
+                <li class="navItem">
+                    <a href class="links">Play</a>
+                </li>
+                <li class="navItem">
+                    <a href="About.html" class="links">About Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="pageContainer">
+            <div class="upgradesListCon">
+                <ul class="upgradesList">
+                    <li class="currentDpCon">
+                        <img class="dpLogo" src="Gambar/DP.png">
+
+                        </img>
+                        <div class="currentDp">
+                            <p id="DP">0</p>
+                        </div>
+                    </li>
+                    <li class="upgrades">
+                        <div class="upgradesName">Instant DP</div>
+                        <div class="upgradesPrice" id="instantDP">2500</div>
+                        <div class="upgradesDescription">gives 500 dp every 30 seconds</div>
+                    </li>
+                    <li class="upgrades">
+                        <div class="upgradesName">DP burst</div>
+                        <div class="upgradesPrice" id="burstDP">0</div>
+                        <div class="upgradesDescription">Gives instant burst of dp</div>
+                    </li>
+                    <li class="upgrades">
+                        <div class="upgradesName">DP per-minute</div>
+                        <div class="upgradesPrice" id="perMinuteDP">20000</div>
+                        <div class="upgradesDescription">Dp regeneration per second is doubled</div>
+                    </li>
+                </ul>
+                <ul class="skillContainerM">
+                    <li class="skill">
+                        <div class="skillName" >+1 DP per click</div>
+                        <div class="btnUp" id="autoDPm">1000</div>
+                    </li>
+                    <li class="skill">
+                        <div class="skillName" >+1 DP regeneration</div>
+                        <div class="btnUp" id="multiplierm">10000</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="charContainer">
+                <img src="Gambar/myrtle_idle.png" id="myrtleClick">
+            </div>
+            
+            <div class="skillContainer">
+                <li class="skill">
+                    <div class="skillName" >Auto DP upgrade</div>
+                    <div class="btnUp" id="autoDP">1000</div>
+                </li>
+                <li class="skill">
+                    <div class="skillName" >DP multipier</div>
+                    <div class="btnUp" id="multiplier">10000</div>
+                </li>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="Program.js"></script>
+</body>
+
+</html>
